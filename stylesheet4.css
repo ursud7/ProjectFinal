@@ -1,0 +1,49 @@
+.Page {
+    background-image: url("kitchen.jpg");
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Navigation{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(235, 143, 173);
+    align-items:center;
+    justify-content:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+.Navigation a{
+    padding: 12px;
+    color:#213e3f;
+}
+
+.Box {
+    width: 500px;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    background-color: papayawhip;
+    align-items:center;
+    justify-content:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 450px;
+    font-size: x-large;
+    text-align: center;
+   border: 8px solid teal
+}
+
+#About {
+    display: flex;
+    flex-direction: row;    
+    align-items:center;
+    justify-content:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}

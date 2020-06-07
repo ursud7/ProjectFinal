@@ -1,0 +1,41 @@
+html{
+    height: cover;
+}
+
+body {
+    background-image: linear-gradient(#FFF9F9 60%, rgb(243, 154, 157));
+    height: 100%;
+    padding: 10px 50px 50px;
+    
+}
+
+
+.Navigation{
+    font-size: 20px;
+    color:#213e3f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding: 16px;
+
+}
+
+.Navigation a{
+  padding: 12px;
+  color:#213e3f;
+  
+  
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: #56A19A;
+}
+
+h2{
+    color:#56A19A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}

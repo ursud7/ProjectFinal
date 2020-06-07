@@ -1,0 +1,115 @@
+html{
+    height: cover;
+}
+
+body {
+    background-image: linear-gradient(#FFF9F9 60%, rgb(243, 154, 157));
+    height: 100%;  
+}
+
+
+.Navigation{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(235, 143, 173);
+    align-items:center;
+    justify-content:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    margin-top: 10px;
+
+}
+
+.Navigation a{
+  padding: 12px;
+  color:#213e3f;
+  
+  
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: #56A19A;
+}
+
+h2{
+    color:#56A19A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h3{
+    color:#56A19A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.saladphoto {
+    float: right;
+   border:8px solid #56A19A;
+   
+}
+
+.cakephoto {
+    height: 500px;
+    width: 500px;
+    float: right;
+   border:8px solid #56A19A;
+   
+}
+
+.lasagnaphoto {
+    height: 500px;
+    width: 500px;
+    float: right;
+   border:8px solid #56A19A;
+   
+}
